@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #fff8e6;
+}
+main {
+  width: 1024px;
+  margin: 0 auto;
+  padding: 1.25rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  line-height: 1.6;
+  grid-gap: 1rem;
+  color: #686868;
+}
+h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.25rem;
+  color: black;
+}
+.section-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* .section-right {
+} */
+.information {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0.75rem;
+}
+.information svg {
+  width: 1rem;
+  margin-right: 0.5rem;
+}
+.contact-list p {
+  display: flex;
+}
+.image {
+  width: 90%;
+  height: 14rem;
+  /* background-color: #0d4671; */
+
+  display: grid;
+  grid-template-columns: 1fr auto;
+  position: relative;
+}
+.image img {
+  height: 180px;
+  border-radius: 50%;
+}
+.img-container {
+  background-color: #0d4671;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14rem;
+  height: 100%;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+}
+.title {
+  background-color: #0d4671;
+  color: white;
+  margin-top: 0.25rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+  transform: scale(0.8);
+}
+.content {
+  background-color: #d8e5f0;
+  text-align: justify;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+.section-left ul {
+  list-style-position: inside;
+}
+.section-left li::marker {
+  color: #0d4671;
+}
+.section-left li a {
+  color: #686868;
+  text-decoration: none;
+}
+/* .section-left li a:active {
+  color: #686868;
+  text-decoration: none;
+}
+.section-left li a:visited {
+  color: #686868;
+  text-decoration: none;
+} */
+.content-left {
+  width: 90%;
+  margin-top: 1rem;
+}
+.intro h5 {
+  font-size: 1.2rem;
+}
+.intro h4 {
+  font-size: 1.6rem;
+}
+.intro {
+  width: fit-content;
+}
+.upcase {
+  background-color: #0d4671;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+  width: fit-content;
+}
+.project .content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.img-proj img {
+  width: 90%;
+  border-radius: 0.25rem;
+}
+.proj-infor {
+  padding: 0.75rem;
+}
+.proj-infor li {
+  list-style-position: inside;
+}
+.proj-infor p {
+  margin: 0.75rem;
+}
+.content-2 {
+  padding: 0.75rem;
+  background-color: #d8e5f0;
+  border-radius: 0.5rem;
+}
+.content-2 p {
+  margin: 0.75rem;
+}
+.skills-list li {
+  text-decoration: underline;
+  font-style: oblique;
+}
